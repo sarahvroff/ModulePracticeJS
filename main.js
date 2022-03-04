@@ -5,7 +5,7 @@ import {
   getIndustryAverageSalary,
   getAverageSalaryByCompany,
 } from "./modules/workAroundModule.js";
-import formatNumbers from './modules/utilities.js'
+import { formatNumber } from './modules/utilities.js'
 
 const companies = getCompanies();
 const roles = getRoles();
